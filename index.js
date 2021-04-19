@@ -106,7 +106,7 @@ GAME.appendChild(rock)
      * we should remove the rock from the DOM.
      */
   }
-
+window.requestAnimationFrame(moveRock)
   // We should kick off the animation of the rock around here.
 
   // Add the rock to ROCKS so that we can remove all rocks
